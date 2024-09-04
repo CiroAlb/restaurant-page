@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #ECDFCC;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    background-color: #3C3D37;
+}
+
+.button{
+    width: auto;
+    margin: 10px 10px 1px 10px;
+    padding: 10px 25px 10px 25px;
+    font-size: 20px;
+    color: #ECDFCC
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.central-div{
+    background-color: #3C3D37;
+    margin: 50px 0 50px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central{
+    background-color: #1e1e1e;
+    width: 50%;
+    margin: 25px 0 25px 0;
+    padding: 25px;
+}
+
+.main-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.standart-text{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.person{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: end;
+    margin-right: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-container{
+    width: 400px;
+    height: 400px;
+}
+
+.test{
+    background-color: #1E201E;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.divition-div{
+    background-color: #1E201E;
+    width: 50%;
+
+}
+
+.divition-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.item-div{
+    background-color: #3C3D37;;
+    border: 2px solid black;
+    margin: 20px;
+    width: 50%;
+}
+
+.item-title{
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.item-description{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.item-price{
+    font-size: 48px;
+    margin-left: 10px;
+}
+
+.item-div-image{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: solid 1px black;
+    margin: 10px 10px 10px 10px;
+}
+
+.item-image{
+    width: 250px;
+    height: fit-content;
+    margin: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    background-color: #3C3D37;
+    
+}
+
+.footer-text{
+}
